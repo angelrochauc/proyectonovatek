@@ -474,7 +474,6 @@ footer{
 
 @media screen and (max-width:900px){
     header{
-        background-position: center;
         height: 450px;
     background-attachment: inherit;
     }
