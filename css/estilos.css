@@ -531,6 +531,26 @@ footer{
     .contenedor-servicio img {
     width: 60%;
 }
+    .menu{
+        padding:20px;
+    }
+    .menu label{
+        display: initial;
+    }
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #148afae3;
+        display: none;
+    }
+    .menu .navbar ul li {
+        width: 100%;
+    }
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
 
     .contenedor-sobre-nosotros{
         flex-direction: column;
