@@ -476,6 +476,9 @@ footer{
     header{
         background-position: center;
     }
+    .contenedor-servicio img {
+    width: 60%;
+}
 
     .contenedor-sobre-nosotros{
         flex-direction: column;
