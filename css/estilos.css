@@ -89,6 +89,7 @@ header {
 
 nav{
     text-align: right;
+    padding-left: 55%;
 }
 
 nav > a{
