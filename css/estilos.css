@@ -11,6 +11,30 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+/* Ocultar el menú en dispositivos de pantalla pequeña */
+nav ul {
+  display: none;
+}
+
+/* Estilos para la etiqueta de hamburguesa */
+label {
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Estilos para el checkbox */
+input[type="checkbox"] {
+  display: none;
+}
+
+/* Estilos para mostrar el menú cuando el checkbox está activado */
+input[type="checkbox"]:checked ~ ul {
+  display: block;
+}
+
 
 .contenedor{
     width: 90%;
