@@ -113,6 +113,8 @@ header .textos-header{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    padding-top: 200px;
+
 }
 
 .textos-header h1{
@@ -524,8 +526,15 @@ footer{
 
 @media screen and (max-width:900px){
     header{
-        height: 450px;
+    height: 450px;
     background-attachment: inherit;
+    padding-top: 200px;
+
+    }
+    header  .textos-header{
+ 
+    padding-top: 100px;
+
     }
     .textos-header h1 {
     font-size: 40px;
