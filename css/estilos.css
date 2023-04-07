@@ -11,7 +11,52 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+.menu {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10000;
+}
 
+.menu .logo {
+    font-weight: 700;
+    font-size: 25px;
+    color: #fff;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+   font-size: 18px;
+   padding: 10px 35px;
+   color: #fff;
+   border-radius: 25px;
+   display: block;
+}
+
+.menu .navbar ul li a:hover{
+    background-color: #369BD1;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
 
 
 .contenedor{
