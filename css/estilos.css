@@ -810,8 +810,8 @@ footer{
         display: flex;
         margin: 1.5rem;
         overflow: hidden;
-        width: 20rem;
-        height: 20rem;
+        width: 30rem;
+        height: 30rem;
     }
     .right-column {
         padding: 10px;
@@ -905,6 +905,16 @@ footer{
 
     .textos-header h2{
         font-size: 20px;
+    }
+	 .curso {
+        background-color: var(--white-text);
+        border-radius: 1rem;
+        box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+        display: flex;
+        margin: 1.5rem;
+        overflow: hidden;
+        width: 20rem;
+        height: 20rem;
     }
 
     /* ABOUT US */
