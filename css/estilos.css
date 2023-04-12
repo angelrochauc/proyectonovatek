@@ -218,12 +218,7 @@ main .sobre-nosotros{
     align-items: center;
 }
 .contenedorcurso {
-	width: 90%;
-	max-width: 1200px;
-	overflow: hidden;
-	margin: auto;
-	padding: 60px 0;
-	border-radius: 25px;
+	width: 100%;
 	background-color: #f5f5f5c7;
 }
 .curso {
