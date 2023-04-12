@@ -220,6 +220,8 @@ main .sobre-nosotros{
 .contenedorcurso {
 	width: 100%;
 	background-color: #f5f5f5c7;
+    	padding: 40px 0;
+}
 }
 .curso {
 	background-color:var(--white-text);
