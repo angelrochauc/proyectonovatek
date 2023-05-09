@@ -326,12 +326,13 @@ main .sobre-nosotros{
 }
 
 .card .content .img img {
-    position: relative;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+	margin: 20px;
+	position: relative;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	object-fit: cover;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
 .card .content span {
